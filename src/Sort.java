@@ -12,6 +12,8 @@ public class Sort {
         }
       }
     }
+    // If you want to see that the array is sorted you can print it
+    // printArray(array);
   }
 
   public static void insertionSort(int[] array) {
@@ -29,6 +31,8 @@ public class Sort {
       }
       array[j + 1] = key;
     }
+    // If you want to see that the array is sorted you can print it
+    // printArray(array);
   }
 
   public static void selectionSort(int[] array) {
@@ -49,6 +53,8 @@ public class Sort {
       array[minIndex] = array[i];
       array[i] = temp;
     }
+    // If you want to see that the array is sorted you can print it
+    // printArray(array);
   }
 
   public static void printArray(int[] array) {
